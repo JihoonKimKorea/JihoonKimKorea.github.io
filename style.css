@@ -1,3 +1,48 @@
+*{margin: 0px; padding: 0px;}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+header{
+    width: 800px;
+    height: 95px;
+    background-color: #2d3a4b;
+
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+nav{
+    position: absolute;
+    bottom: 10px;
+    left: 220px;
+    font-size: 20px;
+}
+nav li{
+    display: inline;
+    margin-left: 30px;
+}
+nav li a{color: white;}
+
+footer{
+    width: 800px;
+    height: 90px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+#page{width: 820px; margin: 0px auto;}
+
+#content li{
+    display: inline;
+    margin-left: 50px;
+}
+
 .nav{
     height: 50px;
     border-bottom: 1px solid black;
