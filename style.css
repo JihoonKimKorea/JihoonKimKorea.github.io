@@ -1,5 +1,5 @@
 *{
-    font-family: "Roboto", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     text-decoration: none;
     border-collapse: collapse;
@@ -10,8 +10,8 @@
 
 .intro_bg{
     background-image: url("Image/Intro.jpg");
-    margin-top: 2rem;
-    width: 100%;
+    margin-top: 120px;
+    width: 2560px;
     height: 718px;
     opacity: 0.5;
     background-repeat: no-repeat;
@@ -23,30 +23,6 @@
     margin: auto;
     background: white;
     height: 86px;
-}
-
-.searchArea > form > input{
-    border: none;
-    width: 220px;
-    height: 40px;
-    background: rgba(0,0,0,0.0);
-    color: #fff;
-    padding-left: 10px;
-}
-
-.searchArea > form > span{
-    width: 50px;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.searchArea{
-    width: 300px;
-    height: 40px;
-    background: rgba(0,0,0,0.5);
-    border-radius: 5px;
-    margin-top: 24px;
 }
 
 .nav{
@@ -77,5 +53,7 @@
 
 .intro_title > li > hl{
     color: #fff;
+    font: bold;
+    font-size: 40px;
 }
 
