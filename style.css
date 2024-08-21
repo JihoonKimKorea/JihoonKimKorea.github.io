@@ -13,7 +13,7 @@
     margin-top: 120px;
     width: 2560px;
     height: 718px;
-    opacity: 0.5;
+    opacity: 0.2;
     background-repeat: no-repeat;
 }
 
@@ -40,6 +40,8 @@
 
 .nav > li > a{
     color: #000;
+    font: bold;
+    font-size: 20px;
 }
 
 .intro_title{
